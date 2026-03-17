@@ -16,44 +16,189 @@ p{
     text-align: center;
 }
 .Kachumbari{
-    display:inline-block;
-    width: 220px;
-    height: 180px;
-    margin: 15px;
-    background: #e67e22;
-    color: white;
+    width: 320px;
+background-color: #fdf8f3;
+border: 1px solid #e8d5c3;
+border-radius: 12px;
+padding: 18px 20px;
+box-shadow: 0 4px 15px rgba(139,69,19,0.12);
+  font-family: Arial, Helvetica, sans-serif;  
+    margin: 20px auto;    
+}
+.Kachumbari ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.Kachumbari li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.Kachumbari li:first-child{
+font-weight: 600;
+color: #5d4037;
+font-size: 1.25rem;
+}
+.Kachumbari li:last-child{
+color: #c2185b;
+font-weight: bold;
+font-size: 1.3rem;
+}
+.Kachumbari img{
+    width: 100%;
+    height: auto;
     border-radius: 8px;
-    padding: 20px;
-    vertical-align: top;
-    
+    display: block;
+    margin-top: 12px;
+    object-fit: cover;
 }
-
-
 .Pumpkin{
-display: inline-block;
-border: 50px;
-border-radius: 50px;
+    width: 320px;
+    background-color: #fdf8f3;
+    border: 1px solid #e8d5c3;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(139,69,19,0.12);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+}
+.Pumpkin ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.Pumpkin li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.Pumpkin li:first-child{
+    font-weight: 600;
+    color: #5d4037;
+    font-size: 1.25rem;
+}
+.Pumpkin li:last-child{
+    color: #c2185b;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.Pumpkin img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 12px;
+    object-fit: cover;
 }
 
-.Nyama Choma{
-display: inline-block;
-border: 50px;
-border-radius: 50px;
-
+.Nyama{
+width: 320px;
+background-color: #fdf8f3;
+border: 1px solid #e8d5c3;
+border-radius: 12px;
+padding: 18px 20px;
+box-shadow: 0 4px 15px rgba(139,69,19,0.12);
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px auto;
 }
-
+.Nyama ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.Nyama li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.Nyama li:first-child{
+    font-weight: 600;
+    color: #5d4037;
+    font-size: 1.25rem;
+}
+.Nyama li:last-child{
+    color:#c2185b;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.Nyama img{
+width: 100%;
+height: auto;
+border-radius:  8px; 
+display:block;
+margin-top: 12px;
+object-fit: cover;
+}
 .Pilau{
-display:inline-block;
-border: 50px;
-border-radius: 50px;
-
+width: 320px;
+background-color: #fdf8f3;
+border: 1px solid #e8d5c3;
+border-radius: 12px;
+padding: 18px 20px;
+box-shadow: 0 4px 15px rgba(139,69,19,0.12);
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px auto;
+}
+.Pilau ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.Pilau li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.Pilau li:first-child{
+    font-weight: 600;
+    color: #5d4037;
+    font-size: 1.25rem;
+}
+.Pilau li:last-child{
+color: #c2185b;
+font-weight: bold;
+font-size: 1.3rem;
+}
+.Pilau img{
+    width: 100%;
+    height: auto;
+border-radius: 8px;
+display: block;
+margin-top: 12px;
+object-fit:cover ;
 }
 
 .Mandazi{
-    display:inline-block;
-    border: 50px;
-    border-radius: 50px;
-
-
+    width: 320px;
+    background-color: #fdf8f3;
+    border: 1px solid #e8d5c3;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 15px rgba(139,69,19,0.12);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
 }
-
+.Mandazi ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+.Mandazi li{
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.Mandazi li:first-child{
+    font-weight: 600;
+    color: #5d4037;
+    font-size: 1.25rem;
+}
+.Mandazi li:last-child{
+    color: #c2185b;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.Mandazi img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 12px;
+    object-fit: cover;
+}
