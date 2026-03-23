@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>karibu restaurant</title>
+        <title>Karibu restaurant</title>
         <link rel="stylesheet" href="icons.css"> 
         <style>
             .reservation{
@@ -16,23 +16,103 @@
             }
             .P{ 
                 list-style-type:lower-roman;
-            
             }
-            
+            a:hover{
+                color:brown;
+            }
+            a:active{
+                color:blue;
+            }
+            a:link{
+                color: black;
+            }
+            a:visited{
+                color: green;
+            }
+            img{
+                width:auto;
+                height:auto;
+                border-radius: 8px;
+                display: block;
+            }
+             table{
+                width: 100%;
+                height: 200px;
+                padding: 30px;
+                border-collapse: collapse;
+                
+            }
+             th{
+                background-color: black;
+                color: white;
+            }
+             td{
+                background-color: dimgrey;
+                color: white;
+            }
+            .reservation{
+                position: static;
+                 
+            }
+            .container{
+                width: 60%;
+                margin: auto;
+                padding: 8px;
+                background-color: white;
+                border: 2px solid black;
+                border-radius: 10px;
+                box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+            }
+            .section-2{
+                margin-top: 20px;
+            }
+             .section-3{
+                margin-top: 20px;
+            }
+             .section-4{
+                margin-top: 20px;
+            }
+             .section-5{
+                margin-top: 20px;
+            }
+            .popular-items{
+                text-align: center;
+            }
+            .popular-items ul{
+                display: inline-block;
+            }
+             .login{
+                border:10 px ;
+                padding-left: 10px;
+                padding-bottom: 10px ;
+                margin-bottom: 10px;
+            }
+            h1{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h3{
+                text-align: center;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: italic;
+            }
 
         </style>
         
     </head>
 </div>
 
-<body style="background-color: lightgoldenrodyellow;">
-
+<body style="background-color:burlywood;">
+<div class="container">
     <h1>Karibu restaurant</h1>
     <img src="download.jfif" alt="Restaurant image " style="border-width: 50px;">
     <p>
-        Welcome to Karibu Restaurant, we serve delicious meals prepsred with extraordinary ingredients,Our Menu includes variety of dishes for everyone.</p>
-    <div class="section 2">
-        <table style="background-color: dimgrey;" border="1">
+        Welcome to Karibu Restaurant, we serve delicious meals prepared with extraordinary ingredients,Our Menu includes variety of dishes for everyone.</p>
+    <div class="section-2">
+        <table border="1">
             <tr>
                 <th>meal</th>
                 <th>description</th>
@@ -55,18 +135,24 @@
             </tr>
         </table>
     </div>
-    <div class="section 3">
+
+
+    <div class="section-3">
         <h3>POPULAR ITEMS</h3>
-        <ul class="P">
+        <div class="popular-items">
+        <ul>
             <li>pilau</li>
             <li>ugali and cabbage</li>
             <li>chapati stew</li>
             <li>chicken wings and fries</li>
         </ul>
-    </div>
-    <div class="section 4">
+        </div>
+    </div> 
+
+
+    <div class="section-4">
         <h3>CUSTOMER LOGIN</h3>
-        <form style="background-color: cornflowerblue;" action="">
+        <form class="login">
             <label for="username">username</label><br>
             <input type="text" id="username" name="username"><br>
             <label for="password">password</label><br>
@@ -74,7 +160,9 @@
             <br><button>LOGIN</button>
         </form>
     </div>
- <div class="section 5">
+
+
+ <div class="section-5">
      <h3> MAKE A RESERVATION</h3>
      <form class="reservation">
         <label for="name">name:</label><br>
@@ -88,8 +176,15 @@
         <br><button>make a reservation</button>
      </form>
  </div>
- <a href="services.html">view our services</a><br>
- <a href="menu.html">visit our menu page</a><br>
 
+
+ <nav class="references">
+     <a href="services.html">view our services</a>
+     <a href="menu.html">visit our menu page</a>
+        <a href="recipe-page-main/index.html">recipe page</a>
+ </nav>
+
+
+</div>
 </body>
 </html>
