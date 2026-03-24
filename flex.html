@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox layout</title>
+    <style>
+        .container div{
+            background-color: goldenrod;
+            width: 20%;
+        }
+        .container{
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 10px;
+            justify-content: flex-end;
+            align-items:flex-end;
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div><p>flex-item</p></div>
+        <div><p>flex-item</p></div>
+        <div><p>flex-item</p></div>
+        <div><p>flex-item</p></div>
+        <div><p>flex-item</p></div>
+        <div><p>flex-item</p></div>
+
+    </div>
+</body>
+</html>

@@ -17,18 +17,7 @@
             .P{ 
                 list-style-type:lower-roman;
             }
-            a:hover{
-                color:brown;
-            }
-            a:active{
-                color:blue;
-            }
-            a:link{
-                color: black;
-            }
-            a:visited{
-                color: green;
-            }
+            
             img{
                 width:auto;
                 height:auto;
@@ -99,6 +88,18 @@
                 font-family: Arial, Helvetica, sans-serif;
                 font-style: italic;
             }
+            nav ul{
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+            }
+             nav a{
+                text-decoration: none;
+                color: black;
+            }
+            
 
         </style>
         
@@ -179,9 +180,13 @@
 
 
  <nav class="references">
-     <a href="services.html">view our services</a>
-     <a href="menu.html">visit our menu page</a>
-        <a href="recipe-page-main/index.html">recipe page</a>
+     <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="services.html">view our services</a></li>
+         <li><a href="menu.html">visit our menu page</a></li>
+         <li><a href="recipe-page-main/index.html">recipe page</a></li>
+         <li><a href="contact.html">contact</a></li>
+     </ul>
  </nav>
 
 
